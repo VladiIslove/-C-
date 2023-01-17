@@ -8,8 +8,10 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA > numberB)
 {
     Console.WriteLine($"число {numberA} больше");
+    Console.WriteLine($"число {numberB} меньше");
 }
 else if (numberB > numberA)
 {
     Console.WriteLine($"число {numberB} больше");
+    Console.WriteLine($"число {numberA} меньше");
 }
