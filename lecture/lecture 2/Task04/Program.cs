@@ -21,7 +21,7 @@ void PrintArray(int[] col)
     }
 }
 
-int Index0f(int[] collection, int find)
+int Inde(int[] collection, int find)
 {
     int count = collection.Length;
     int index = 0;
@@ -43,7 +43,7 @@ FillArray(array);// Случайные числа массива
 PrintArray(array);
 Console.WriteLine();
 
-int pos = Index0f(array, 4);
+int pos = Inde(array, 4);
 Console.WriteLine(pos);
 
 // не работает :(
